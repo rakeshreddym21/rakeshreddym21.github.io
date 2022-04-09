@@ -133,7 +133,8 @@ position: absolute;
     display: flex;
     flex-direction: row;
     padding: 10vh;
-    background: rgba(37, 25, 25, 0.137);
+    /* background:rgba(255, 255, 255, 0.2); */
+    
   }
   
   .contact-info{
@@ -147,7 +148,7 @@ position: absolute;
   .contact-info i{
     margin-right: 20px;
     font-size: 25px;
-    color: rgb(255, 80, 80);
+    color:darkslateblue;
   }
   
   .contact-form{
