@@ -96,14 +96,14 @@ border-radius: 10vh;
 .gallery-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+     justify-content: center; 
 }
 .gallery-container h1{
     text-align: center;
     font-size: 5vh;
     padding:2vh;
 }
-.gallery-container ul{
+/* .gallery-container ul{
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
@@ -119,4 +119,21 @@ border-radius: 10vh;
     width: 40vh;
     height: 40vh;
     border-radius: 10px;
+} */
+.images{
+    display: flex; 
+     flex-direction: row; 
+    flex-wrap: wrap;
+    padding:5vh;
+    row-gap: 20px;
+    column-gap: 20px;
+      justify-content:flex-start;  
+      position:relative;  
+      margin: 0 0 16.5% 20%;
+}
+.images img{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 10px;
+
 }
